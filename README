@@ -9,3 +9,5 @@ follow the steps :)
 Works Also with no file loaded in ida pro.
 
 IF not working try copy the intire adb folder to ida root folder (including android_server)
+
+includes also logcat
