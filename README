@@ -1,0 +1,11 @@
+Have adb from android sdk/platforms-tools in your path
+copy android_server to adb folder
+http://www.computerhope.com/issues/ch000549.htm
+
+place Plugin in plugin folder.
+find it under debugger menu.
+
+follow the steps :)
+Works Also with no file loaded in ida pro.
+
+IF not working try copy the intire adb folder to ida root folder (including android_server)
