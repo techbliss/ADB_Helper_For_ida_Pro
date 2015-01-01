@@ -35,6 +35,7 @@ class gonzola(idaapi.plugin_t):
         idaapi.add_menu_item("Debugger/", "5: adb Forward ports for debugging", "", 0, self.day, ())
         idaapi.add_menu_item("Debugger/", "6: adb Logcat", "", 0, self.snows, ())
         idaapi.add_menu_item("Debugger/", "7: adb Logcat to File", "", 0, self.thunder, ())
+        idaapi.add_menu_item("Debugger/", "8: adb shell >>> :", "", 0, self.cloudy, ())
 
 
 
@@ -73,6 +74,9 @@ class gonzola(idaapi.plugin_t):
     def thunder(self):
         file = get_root_filename()
         subprocess.Popen('adb logcat > logcat.txt')
+
+    def cloudy(self):
+        subprocess.Popen('adb shell')
 
 def PLUGIN_ENTRY():
     return gonzola()
