@@ -1,3 +1,5 @@
+NB!! NEW VERSION HERE https://github.com/techbliss/ADB_Helper_QT_Super_version with x86 taret and much more
+
 Have adb from android sdk/platforms-tools in your path
 copy android_server to adb folder
 http://www.computerhope.com/issues/ch000549.htm
@@ -11,3 +13,4 @@ Works Also with no file loaded in ida pro.
 IF not working try copy the intire adb folder to ida root folder (including android_server)
 
 includes also logcat
+
